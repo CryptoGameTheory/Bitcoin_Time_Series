@@ -43,7 +43,7 @@ library(quantmod) #se da problemi usa sopra
 ## the dataset, which before started from 2010 and subsequently started from the end of 2014. 
 ## Fortunately, I have saved the workspace which is added on GitHub.
 
-load("C:/Users/manue/Desktop/BTC code R/Workspaces/YahooFinHistorBitcoin.RData")
+load("C:/______/_______/_______/YahooFinHistorBitcoin.RData") # Here goes your path
 
 btc_xtsUNO <- getSymbols("BTC-USD", auto.assign = F)
 btc_xtsUNO$`BTC-USD.Adjusted`<- NULL
